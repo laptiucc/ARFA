@@ -1,0 +1,358 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #FFFFFF repeat-y url(../images/bkgrd-body.png);
+  color: #000;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a img {
+  border: none;
+}
+
+blockquote {
+  margin: 20px 30px;
+  padding: 10px;
+  border-color: #999;
+  font-style: italic;
+  color: #666;
+  background: #EEE;
+}
+
+code {
+  color: #666;
+}
+
+ ul {
+  list-style: url(../images/li_bullet.png) none;
+}
+
+#container {
+  min-width: 800px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header {  
+  border-bottom: 1px solid #9E9E9E;
+  background: url(../images/bkgrd-header.png) right no-repeat;
+  margin-left: 20px;
+  /* stupid Win IE hack */
+  height: 84px;
+  * height: 85px;
+}
+
+#validation {
+  font: 10px Verdana, Arial, Helvetica, sans-serif;
+  float:  left;
+  height: 20px;
+  padding-left: 89px;
+  color: #AAA;
+  margin-top: 2px;
+}
+
+#validation a {
+  color: #AAA;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+#validation a:hover {
+  text-decoration: none;
+  color: #666;
+}
+
+#footer {
+  font: 10px Verdana, Arial, Helvetica, sans-serif;
+  height: 40px;
+  color: #AAA;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 2px;
+  letter-spacing: 1px;
+}
+
+#footer a {
+  color: #AAA;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: none;
+  color: #666;
+}
+
+.clear {
+  margin: 0px;
+  padding: 0px;
+  clear: both;
+}
+
+#menu {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  width: 170px;
+  height: 170px;
+  top: 0px;
+  left: 0px;
+  background: url(../images/menu_bg.png);
+}
+
+#menu span {
+  display: block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+  
+#menu a {
+  width: 170px;
+  height: 170px;
+  display: block;
+}
+
+#submenu {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  width: 400px;
+  height: 60px;
+  top: 38px;
+  left: 180px;
+  background: url(../images/submenu.png);
+}
+
+#submenu span {
+  display: block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+#submenu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+}
+
+#submenu li, #submenu a {
+  height: 20px;
+  display: block;
+}
+
+#home {
+  position: absolute;
+  width: 130px;
+  top: 30px;
+  left: 0px;
+}
+
+#search {
+  position: absolute;
+  width: 60px;
+  top: 30px;
+  left: 142px;
+}
+
+#search a:hover {
+  background: transparent url(../images/submenu.png) -142px -80px no-repeat;
+}
+
+#download {
+  position: absolute;
+  width: 87px;
+  top: 30px;
+  left: 217px;
+}
+
+#download a:hover {
+  background: transparent url(../images/submenu.png) -217px -80px no-repeat;
+}
+
+#contact {
+  position: absolute;
+  width: 70px;
+  top: 30px;
+  left: 325px;
+}
+
+#contact a:hover {
+  background: transparent url(../images/submenu.png) -325px -80px no-repeat;
+}
+  
+#content-main {
+  background: url(../images/submenu-bkgrd_main.png) no-repeat 86px 86px;
+}
+
+#content-search {
+  background: url(../images/submenu-bkgrd_search.png) no-repeat 86px 86px;
+}
+
+#content-download {
+  background: url(../images/submenu-bkgrd_download.png) no-repeat 86px 86px;
+}
+
+#content-help {
+  background: url(../images/submenu-bkgrd_help.png) no-repeat 86px 86px;
+}
+
+#content-contact {
+  background: url(../images/submenu-bkgrd_contact.png) no-repeat 86px 86px;
+}
+
+h2 {
+  margin: 20px 0;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  color: #999;
+}
+
+.main, .search, .webservice, .download, .help, .contact {
+  text-align: justify;
+  border-right: 1px solid #9E9E9E;
+  border-bottom: 1px solid #9E9E9E;
+  padding: 10px 22px 10px 180px;
+  margin-right: 20px;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.main a:link { color: #DC7B5B; text-decoration: underline; }
+.main a:visited { color: #DC7B5B; }
+.main a:hover { text-decoration: none; }
+
+.search a:link { color: #DEBA6A; text-decoration: underline; }
+.search a:visited { color: #DEBA6A; }
+.search a:hover { text-decoration: none; }
+
+.download a:link { color: #BA75B4; text-decoration: underline; }
+.download a:visited { color: #BA75B4; }
+.download a:hover { text-decoration: none; }
+
+.contact a:link { color: #908193; text-decoration: underline; }
+.contact a:visited { color: #908193; }
+.contact a:hover { text-decoration: none; }
+
+.help a:link { color: #DEBA6A; text-decoration: underline; }
+.help a:visited { color: #DEBA6A; }
+.help a:hover { text-decoration: none; }
+
+.contact h1 {
+  color: #908193;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: normal;
+  border-bottom: 1px solid #CCC;
+  text-align: right;
+  padding: 26px 0 6px 0;
+}
+
+.contact h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: normal;
+  color: #908193;
+}
+
+.help h1 {
+  color: #DEBA6A;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: normal;
+  border-bottom: 1px solid #CCC;
+  text-align: right;
+  padding: 26px 0 6px 0;
+}
+
+.help h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: #D7FD3D;
+}
+
+.main h1 {
+  color: #DC7B5B;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: normal;
+  border-bottom: 1px solid #CCC;
+  text-align: right;
+  padding: 26px 0 6px 0;
+}
+
+.main h3 {
+  margin: 25px 0 0 0;
+  padding: 0;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: #DC7B5B;
+}
+
+.news {
+  padding-top: 20px;
+}
+
+.news .clear {
+  border-top: 1px solid #CCC;
+}
+
+.news h2 {
+  display: inline;
+  color: #9E9E9E;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.news img.goto {
+  float: right;
+  padding: 5px 0;
+}
+
+.news img.thumb {
+  float: right;
+  margin: 16px 0 10px 20px;
+}
+
+#content-contact strong {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: #999;
+}
+
+#contact_form {
+  margin: 20px 0 10px 0;
+  padding: 5px 10px;
+  background: #F3F3F3;
+  -moz-border-radius: 10px;
+}
+
+#contact_form input {
+  margin: 6px;
+  margin-left: 10px;
+}
+
+#subject {
+  width: 95%;
+}
+
+#contact_form textarea {
+  width: 95%;
+  height: 150px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+#contact_form select {
+  margin: 6px;
+  margin-left: 10px;
+}
